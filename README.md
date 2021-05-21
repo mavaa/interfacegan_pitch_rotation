@@ -1,6 +1,8 @@
 # Interfacegan pitch boundary creation
 Using automated face pose estimation to create boundaries for InterFaceGAN
 
+![Preview image](preview.png)
+
 ## Contents
 
 ### Notebook
