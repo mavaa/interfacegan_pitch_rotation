@@ -11,7 +11,7 @@ The generation of samples and pose estimations are very time-consuming processes
 
 ## Data directory
 
-The `data/` dir contains multiple npy files:
+The `data/` dir contains multiple npy files from a run of the notebook, generating 10 000 samples:
 
 | Name                       | Content                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------- |
