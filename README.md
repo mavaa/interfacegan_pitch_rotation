@@ -16,6 +16,7 @@ The `data/` dir contains multiple npy files:
 | Name                       | Content                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------- |
 | data/random_samples/       | Contains two files for the z and w latent space codes for all generated samples |
+| data/boundaries/           | Contains the boundaries generated with specified threshold                      |
 | data/face_pitch_scores.npy | Array with labels (0 or 1) for positive/negative angles                         |
 | data/face_pitch_latents_*  | Corresponding latent vectors for each score label                               |
 | data/all_face_angles.npy   | All estimations containing rotation angles and translations for each sample     |
