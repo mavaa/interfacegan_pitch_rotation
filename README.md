@@ -1,7 +1,11 @@
-# Interfacegan pitch boundary creation
-Using automated face pose estimation to create boundaries for InterFaceGAN
+# Training pitch angle boundary models for InterFaceGAN using automated labeling
+In short, the project can:
+- Generate fake fotos using [StyleGAN](https://github.com/NVlabs/stylegan)
+- Estimate face rotation and label samples with the help of [img2pose](https://github.com/vitoralbiero/img2pose)
+- Train and test boundaries with [InterFaceGAN](https://github.com/genforce/interfacegan) for rotating the pitch angle of generated samples
 
 ![Preview image](preview.png)
+Shown above: A random sample being rotated using 5 boundaries. Each trained with a filtered set of samples based on an absolute angle threshold (first to last row shows thresholds of 0, 5, 10, 15 and 20 respectively)
 
 ## Contents
 
