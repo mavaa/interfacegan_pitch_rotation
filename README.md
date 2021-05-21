@@ -14,6 +14,7 @@ The generation of samples and pose estimations are very time-consuming processes
 The `data/` dir contains multiple npy files:
 
 | Name                       | Content                                                                         |
+| -------------------------- | ------------------------------------------------------------------------------- |
 | data/random_samples/       | Contains two files for the z and w latent space codes for all generated samples |
 | data/face_pitch_scores.npy | Array with labels (0 or 1) for positive/negative angles                         |
 | data/face_pitch_latents_*  | Corresponding latent vectors for each score label                               |
